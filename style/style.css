@@ -119,7 +119,7 @@ i {
     color: var(--colorBlanco);
 }
 
-#discordUser>p {
+#btn-disc>p {
     display: none;
 }
 

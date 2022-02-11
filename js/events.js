@@ -1,7 +1,16 @@
-var userDiscord = document.getElementById('discordUser');
-var seleccion = document.createRange();
-seleccion.selectNodeContents(userDiscord);
-window.getSelection().removeAllRanges();
-window.getSelection().addRange(seleccion);
-var res = document.execCommand('copy');
-window.getSelection().removeRange(seleccion);
+function copiado() {
+
+    /* Obtener el contenido de el elemento "btn-disc" */
+    var copyText = document.getElementById("btn-disc").textContent;
+
+    /* Copiar al clipboard */
+    navigator.clipboard.writeText(copyText);
+
+    /* Alert para mostrar lo que quedo copiado */
+    alert("Usuario de Discord copiado al Portapapels: " + copyText);
+
+}
+
+function mostrarSkills() {
+
+}
