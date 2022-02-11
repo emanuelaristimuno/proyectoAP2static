@@ -7,7 +7,7 @@ function copiado() {
     navigator.clipboard.writeText(copyText);
 
     /* Alert para mostrar lo que quedo copiado */
-    alert("Usuario de Discord copiado al Portapapels: " + copyText);
+    alert("Usuario copiado al Portapapels: " + copyText);
 
 }
 
