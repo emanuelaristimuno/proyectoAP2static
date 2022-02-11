@@ -305,7 +305,31 @@ label {
     cursor: pointer;
 }
 
-.card-pro {
+.soft {
+    background-color: var(--colorGris);
+    border-radius: 0.8rem 0.8rem 0 0;
+    padding: 0.1rem;
+    width: 4.5rem;
+    text-align: center;
+    color: var(--colorNegro);
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.soft:hover {
+    background-color: var(--colorNegro);
+    color: var(--colorLetraBlanca);
+    cursor: pointer;
+}
+
+#card-hard {
+    background: var(--colorGris);
+    padding: 0.1rem 0.6rem 0.6rem 0.6rem;
+    border-radius: 0 1rem 1rem 1rem;
+    margin-bottom: 1.6rem
+}
+
+#card-soft {
     background: var(--colorGris);
     padding: 0.1rem 0.6rem 0.6rem 0.6rem;
     border-radius: 0 1rem 1rem 1rem;
