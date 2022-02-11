@@ -110,13 +110,27 @@ content {
 }
 
 .redes {
-    padding: 0.1rem;
+    padding: 0.1rem 0.5rem;
 }
 
-.redes>i {
+i {
     width: 1.5rem;
     align-items: center;
     color: var(--colorBlanco);
+}
+
+#discordUser>p {
+    display: none;
+}
+
+.redes>a {
+    background: 0;
+    padding: 0;
+}
+
+.redes>a:hover {
+    background: 0;
+    padding: 0;
 }
 
 .fab:hover {
